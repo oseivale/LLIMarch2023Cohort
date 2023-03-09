@@ -1,3 +1,23 @@
 h1{
     color: red;
 }
+
+p{
+    font-size: 25px;
+   
+}
+
+.my-button{
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #6F38BD;
+    color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 10px 5px 5px rgba(139, 133, 146, 80%);
+}
+
+#main-image{
+    height: 300px;
+    border-radius: 50%;
+}

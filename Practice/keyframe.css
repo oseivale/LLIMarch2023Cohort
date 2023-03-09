@@ -1,0 +1,20 @@
+.myDiv{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    animation: myAnimation 3s infinite;
+}
+
+@keyframes myAnimation{
+    25%{
+        background-color: yellow;
+    }
+
+    50%{
+        background-color: green;
+    }
+
+    100%{
+        background-color: red;
+    }
+}
