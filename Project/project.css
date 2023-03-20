@@ -1,0 +1,44 @@
+.main-section{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-container{
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #F3F1F4;
+}
+
+.form-input{
+    display: block;
+    margin: 20px;
+}
+
+.form-input span {
+    display: block;
+}
+
+.form-input input{
+    padding: .5rem;
+}
+
+.form-input input, textarea{
+    width: 100%;
+}
+
+.button{
+    margin-left: 20px;
+    border: none;
+    padding: 1rem 2rem;
+    background-color: #9F4CC8;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+}
+
+.button:hover{
+    background-color: #ffffff;
+    color: #9F4CC8;
+    border: 2px solid #9F4CC8;
+}

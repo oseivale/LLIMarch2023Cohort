@@ -8,13 +8,19 @@
 @keyframes myAnimation{
     25%{
         background-color: yellow;
+        border-radius: 10%;
+        transform: translateX(600px);
     }
 
     50%{
         background-color: green;
+        border-radius: 50%;
+        transform: translateY(600px);
     }
 
     100%{
         background-color: red;
+        border-radius: 100%;
+        transform: translateX(-600px);
     }
 }
