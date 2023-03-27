@@ -10,6 +10,8 @@
     background-color: #F3F1F4;
 }
 
+/* Form Styles */
+
 .form-input{
     display: block;
     margin: 20px;
@@ -41,4 +43,14 @@
     background-color: #ffffff;
     color: #9F4CC8;
     border: 2px solid #9F4CC8;
+}
+
+/* Task Container Styles */
+
+#task-container{
+    padding: 2rem;
+}
+
+.single-task{
+    border: 2px solid black;
 }
