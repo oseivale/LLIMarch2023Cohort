@@ -28,3 +28,24 @@ const printTotal = (num1, num2, num3) => {
 console.log(printMessage("Jonny", "16"))
 
 console.log(printTotal(2,6,7))
+
+// Looking at JS Classes in detail
+
+class Person {
+    constructor(firstName, lastName, address){
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address
+    }
+
+    greeting(){
+        return `Hello, my name is ${this.firstName}!`
+    }
+}
+
+var person1 = new Person("Valerie", "Osei", "123 Main St.")
+var person2 = new Person("John", "Smith", "100 Pickering St.")
+
+console.log(person1.greeting())
+console.log(person2)
+

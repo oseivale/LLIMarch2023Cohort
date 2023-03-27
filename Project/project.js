@@ -1,5 +1,8 @@
 // Our variables
 var submitButton = document.querySelector('.button');
+var task = document.getElementById('name');
+var description = document.getElementById('description');
+var date = document.getElementById('date');
 
 // Creating our Task Object
 class Task {
@@ -10,10 +13,15 @@ class Task {
     }
 }
 
-var task1 = new Task(
-    'Wash Dishes',
-    'I need to add soap and then rinse the plate.',
-    '03-23-2023'
-);
+// Set up our tasks
 
-console.log(task1);
+// our submit handler
+function submitTask(event) {
+    event.preventDefault();
+    const newTask = new Task(task.value, description.value, date.value);
+
+    console.log(newTask);
+}
+
+submitButton.addEventListener('click', submitTask);
+

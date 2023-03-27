@@ -1,0 +1,46 @@
+.keyframe{
+    font-size: 1rem;
+    position: absolute;
+    color: purple;
+    animation: modifyHeader 5s infinite;
+}
+
+@keyframes modifyHeader {
+    0%{
+        color: purple;
+        font-size: 1rem;
+        top: 0px;
+    }
+    25%{
+        color: red;
+        font-size: 2rem;
+        top: 50%;
+    }
+
+    50%{
+        color: green;
+        font-size: 4rem;
+        right: 50%
+    }
+
+    75%{
+        color: yellow;
+        font-size: 2rem;
+        top: 0%
+    }
+
+    100%{
+        color: blue;
+        font-size: 1rem;
+        left: 0%;
+    }
+}
+
+.my-image{
+    width: 300px;
+    border-left: 9px orange groove;
+    border-bottom: 9px orange groove;
+    border-top: 9px blue groove;
+    border-right: 9px blue groove;
+    border-radius: 10px;
+}
